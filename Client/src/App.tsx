@@ -7,14 +7,16 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 // Removed .tsx and .jsx extensions
 import Index from "./components/Index";
 import NotFound from "./pages/NotFound";
-import AllAboutSiA from "./pages/AllAboutSiA"; 
-import JakeLight from "./pages/JakeLight"; 
-import AllActivities from "./pages/AllActivities"; 
-import Join from "./pages/Join"; 
+
 import Satsangs from "./pages/Satsangs"; 
 import Webinars from "./pages/Webinars"; 
 import Retreats from "./pages/Retreats"; 
 import Events from "./pages/Events";
+
+import AllAboutSiA from "./pages/AllAboutSiA"; 
+import JakeLight from "./pages/JakeLight"; 
+import AllActivities from "./pages/AllActivities"; 
+import Join from "./pages/Join";
 
 const queryClient = new QueryClient();
 
