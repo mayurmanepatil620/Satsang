@@ -5,7 +5,7 @@ import { Link, useLocation } from "react-router-dom";
 
 // Assets
 import logo from "@/assets/satsung-logo.jpg";
-import founder from "@/assets/founder-main.jpg";
+import founder from "../assets/founder-main.jpg";
 
 // UI Components
 import { Badge } from "@/components/ui/badge";
