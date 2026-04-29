@@ -1,0 +1,221 @@
+{{!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Email Verification</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f4f4f4;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .header h2 {
+            color: #333;
+        }
+
+        .message {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.6;
+            padding: 20px 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #00a63d;
+            color: #ffffff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .footer {
+            font-size: 13px;
+            color: #999;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        a {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Verify Your Email Address</h2>
+        </div>
+        <div class="message">
+            <p>Hello,</p>
+            <p>
+                Thank you for registering on our website. To complete your signup process and activate your account,
+                please verify your email address by clicking the button below.
+            </p>
+            <p style="text-align: center; color:#ffffff">
+                <a href="http://localhost:5173/verify/{{token}}" target="_blank" style="
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #00a63d;
+      color: #ffffff !important;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    ">
+                    Verify Your Email
+                </a>
+            </p>
+            <p>If you did not initiate this request, you can safely ignore this email.</p>
+        </div>
+        <div class="footer">
+            &copy; 2025 Webelite Builders. All rights reserved.
+        </div>
+    </div>
+</body>
+
+</html> --}}
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Verify Your Email - LearnHub</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background-color: #f5f7ff;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+        }
+
+        .header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee;
+        }
+
+        .logo {
+            font-size: 22px;
+            font-weight: bold;
+            color: #6366F1;
+        }
+
+        .header h2 {
+            margin-top: 10px;
+            color: #111827;
+        }
+
+        .message {
+            font-size: 16px;
+            color: #4B5563;
+            line-height: 1.6;
+            padding: 20px 0;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 14px 28px;
+            background: linear-gradient(135deg, #6366F1, #8B5CF6);
+            color: #ffffff !important;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            margin-top: 20px;
+        }
+
+        .footer {
+            font-size: 13px;
+            color: #9CA3AF;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .highlight {
+            color: #6366F1;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Header -->
+        <div class="header">
+            <div class="logo">📘 LearnHub</div>
+            <h2>Verify Your Email</h2>
+        </div>
+
+        <!-- Message -->
+        <div class="message">
+            <p>Hello,</p>
+
+            <p>
+                Welcome to <span class="highlight">LearnHub</span> 🎓  
+                You’re one step away from starting your learning journey.
+            </p>
+
+            <p>
+                Please confirm your email address to activate your account and
+                access courses, dashboards, and personalized learning.
+            </p>
+
+            <!-- Button -->
+            <p style="text-align: center;">
+                <a href="http://localhost:5173/verify/{{token}}" target="_blank" class="button">
+                    Verify Email
+                </a>
+            </p>
+
+            <p>
+                If you did not create this account, you can safely ignore this email.
+            </p>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            © 2026 LearnHub. All rights reserved.
+        </div>
+
+    </div>
+</body>
+
+</html>
